@@ -6,10 +6,15 @@
 	<groupId>fr.weit.cloudboot</groupId>
 	<artifactId>spring-cloud-bootstrapping</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 
 	<name>spring-cloud-bootstrapping</name>
 	<description>Spring Cloud – Bootstrapping</description>
 
+	<modules>
+		<module>gateway</module>
+		<module>cloud-config-server</module>
+		<module>eureka-server</module>
+	</modules>
 
 </project>
